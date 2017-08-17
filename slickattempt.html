@@ -25,20 +25,10 @@
 <h1 class="sectionTitle">Recordings</h1>
   <div class="container">
     <div class="albumsCarousel">
-      <div><img class="slickImage" src=./images/betterQuit.png></div>
-      <div><img class="slickImage" src=./images/betterVill.png></div>
-      <div><img class="slickImage" src=./images/casio.jpg></div>
-      <div><img class="slickImage" src=./images/betterWorried.png></div>
-      <div><img class="slickImage" src=./images/betterFrost.png></div>
-      <div><img class="slickImage" src=./images/betterWeird.png></div>
-      <div><img class="slickImage" src=./images/betterOphelia.png></div>
-      <div><img class="slickImage" src=./images/betterEnya.png></div>
-      <div><img class="slickImage" src=./images/betterXiu.png></div>
-      <div><img class="slickImage" src=./images/betterImpasse.png></div>
-      <div><img class="slickImage" src=./images/betterV.png></div>
-      <div><img class="slickImage" src=./images/betterThrone.png></div>
-      <div><img class="slickImage" src=./images/betterSholi.png></div>
-      <div><img class="slickImage" src=./images/betterPGirls2.png></div>
+      <div><img class="slickImage" src=./images/betterbio.png></div>
+      <div><img class="slickImage" src=./images/betterdiscog.png></div>
+      <div><img class="slickImage" src=./images/bettershows.png></div>
+      <div><img class="slickImage" src=./images/betterUW.png></div>
   </div>
   </div>
 
@@ -49,13 +39,14 @@
 $(document).ready(function(){
 
   $('.albumsCarousel').slick({
-    dots: true,
   infinite: true,
 slidesToShow: 3,
 slidesToScroll: 3,
 cssEase: "ease",
 autoplay: true,
-autoplaySpeed: 3000
+autoplaySpeed: 3000,
+nextArrow: '<i class="fa fa-arrow-right"></i>',
+    prevArrow: '<i class="fa fa-arrow-left"></i>'
   });
 
 });
