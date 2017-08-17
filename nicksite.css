@@ -1,0 +1,77 @@
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 75%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.fa {
+    color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+}
+
+.slick-prev, .slick-next {
+transform: translate3d(0, 0, 0);/* fix for chrome not rendering */
+}
+.slick-dots {
+transform: translate3d(0, 0, 0);
+}
+}
+
+#navName{
+    color: white;
+}
+
+.slickImage{
+    height: 75%;
+    width: 75%;
+}
+
+#Bio, #Lessons, #Contact{
+    background-color: black;
+}
+
+.sectionTitle {
+    color: white;
+    text-align: center;
+}
+
+.sectionText{
+    color: white;
+}
+
+#enter {
+	margin-left: 40%;
+
+}
+
+.introText1{
+	color: white;
+	text-align: center;
+	margin-top: 15%
+}
+
+.introText2{
+	color: white;
+	text-align: center;
+}
+
+#myCarousel{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.carouselInner{
+    margin-left: 27%;
+    margin-right: 27%;
+}
